@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Alfa Slab One", serif;
+  --font-sans: "Nunito", sans-serif;
+  --color-brand-primary: #d92d20;
+  --color-brand-dark: #7a1610;
+  --color-brand-amber: #f79009;
+  --color-brand-warm: #fffbf7;
+  --color-whatsapp: #25d366;
+  --color-whatsapp-dark: #128c7e;
+}
+
+:root {
+  --primary: #d92d20;
+  --primary-foreground: #ffffff;
+  --brand-dark: #2a110e;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Nunito', sans-serif;
+}
+
+.font-display {
+  font-family: 'Alfa Slab One', serif;
+}
+
+.font-sans {
+  font-family: 'Nunito', sans-serif;
+}
+
+.bg-hero {
+  background: linear-gradient(135deg, #d92d20 0%, #b42318 45%, #7a1610 100%);
+}
+
+.shadow-card {
+  box-shadow: 0 16px 36px -12px rgba(217, 45, 32, 0.18), 0 4px 12px -2px rgba(0, 0, 0, 0.05);
+}
+
+.shadow-card-hover {
+  box-shadow: 0 24px 48px -12px rgba(217, 45, 32, 0.28), 0 8px 16px -2px rgba(0, 0, 0, 0.08);
+}

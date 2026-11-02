@@ -1,0 +1,6 @@
+{
+  "name": "Multitextos Luchito - Editorial Santa Cruz",
+  "description": "Catálogo interactivo y pedidos por WhatsApp de los Multitextos Luchito para Nivel Inicial y Primaria en Santa Cruz, Bolivia.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
